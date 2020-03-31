@@ -104,7 +104,7 @@ a:hover {
 
 .d-bloc p, .d-bloc span{
     color: rgba(255, 255, 255);
-    text-shadow: #c22b32 0.5px 0.5px, #c22b32 -0.5px 0.5px, #c22b32 -0.5px -0.5px, #c22b32 0.5px -0.5px;
+  /*  text-shadow: #c22b32 0.5px 0.5px, #c22b32 -0.5px 0.5px, #c22b32 -0.5px -0.5px, #c22b32 0.5px -0.5px;*/
 
 }
 
@@ -684,7 +684,7 @@ p, p.text-center.white{
     font-size: 20px;
 }
 p.text-center{
-  font-size:11px;
+  font-size:15px;
 }
 .tight-width-whitespace {
     max-width: 600px;
