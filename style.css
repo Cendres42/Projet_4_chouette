@@ -169,7 +169,7 @@ a:hover {
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
 }
 
 .d-bloc .panel button:hover {
@@ -200,7 +200,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
 }
 
 .d-bloc .panel button:hover,
@@ -640,7 +640,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
     background: none;
 }
 
@@ -759,7 +759,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #473F29;
+    opacity:0.8;
     padding: 40px 40px 40px 40px;
 }
 
@@ -772,25 +773,25 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+/*.bgc-dark-slate-blue {
     background-color: #364577;
-}
+}*/
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CB4B10;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #CB4B10!important;
   }
   h1.tc-white , h2.tc-white {
-    text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;
+    /*text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;*/
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CB4B10;
     color: #FFFFFF!important;
-        text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;
+        /*text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;*/
 }
 
 .btn-atomic-tangerine:hover {
@@ -807,7 +808,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CB4B10!important;
 }
 
 .ltc-atomic-tangerine:hover {
