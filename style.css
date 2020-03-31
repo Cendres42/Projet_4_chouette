@@ -103,7 +103,7 @@ a:hover {
 }
 
 .d-bloc p, .d-bloc span{
-    color: rgba(255, 255, 255);
+    color: #212121;
   /*  text-shadow: #c22b32 0.5px 0.5px, #c22b32 -0.5px 0.5px, #c22b32 -0.5px -0.5px, #c22b32 0.5px -0.5px;*/
 
 }
@@ -778,19 +778,19 @@ h4 {
 }*/
 
 .bgc-atomic-tangerine {
-    background-color: #CB4B10;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #CB4B10!important;
+    color: #F3976C!important;
   }
   h1.tc-white , h2.tc-white {
     /*text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;*/
 }
 
 .btn-atomic-tangerine {
-    background: #CB4B10;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #212121!important;
         /*text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;*/
 }
 
@@ -808,7 +808,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #CB4B10!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
