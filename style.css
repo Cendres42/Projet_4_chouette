@@ -101,8 +101,10 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
+.d-bloc p, .d-bloc span{
+    color: rgba(255, 255, 255);
+    text-shadow: #c22b32 0.5px 0.5px, #c22b32 -0.5px 0.5px, #c22b32 -0.5px -0.5px, #c22b32 0.5px -0.5px;
+
 }
 
 .d-bloc button:hover {
@@ -135,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -647,13 +649,12 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #222222!important;
 }
 
 .container {
@@ -778,11 +779,15 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+  }
+  h1.tc-white , h2.tc-white {
+    text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+        text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -824,7 +829,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
