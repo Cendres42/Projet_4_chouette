@@ -200,7 +200,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .7);
 }
 
 .d-bloc .panel button:hover,
@@ -684,7 +684,7 @@ p, p.text-center.white{
     font-size: 20px;
 }
 p.text-center{
-  font-size:11px;
+  font-size:15px;
 }
 .tight-width-whitespace {
     max-width: 600px;
@@ -708,6 +708,8 @@ p.text-center{
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display:flex;
+    justify-content:space-around;
 }
 
 h2 {
@@ -747,6 +749,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    display:inline-block;
 }
 
 .portfolio-row {
