@@ -103,7 +103,7 @@ a:hover {
 }
 
 .d-bloc p, .d-bloc span{
-    color: rgba(255, 255, 255);
+    color: #212121;
     text-shadow: #c22b32 0.5px 0.5px, #c22b32 -0.5px 0.5px, #c22b32 -0.5px -0.5px, #c22b32 0.5px -0.5px;
 
 }
@@ -169,7 +169,7 @@ a:hover {
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
 }
 
 .d-bloc .panel button:hover {
@@ -200,7 +200,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .7);
+    color: rgba(0, 0, 0, .8);
 }
 
 .d-bloc .panel button:hover,
@@ -640,7 +640,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
     background: none;
 }
 
@@ -762,7 +762,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+  background-color: #473F29;
+  opacity:0.8;
     padding: 40px 40px 40px 40px;
 }
 
