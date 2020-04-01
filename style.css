@@ -788,13 +788,13 @@ h4 {
     color: #F3976C!important;
   }
   h1.tc-white , h2.tc-white {
-    text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;
+  /*  text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;*/
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
-        text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;
+    color: #212121!important;
+      /*  text-shadow: #c22b32 1px 1px, #c22b32  -1px 1px, #c22b32  -1px -1px, #c22b32  1px -1px;*/
 }
 
 .btn-atomic-tangerine:hover {
