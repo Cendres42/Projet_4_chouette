@@ -890,8 +890,8 @@ a.navbar-brand{
         position: relative;
     }
     .bloc {
-        padding-left: 10px
-        padding-right: 10px
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -901,8 +901,8 @@ a.navbar-brand{
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: 10px
-        padding-right: 10px
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
