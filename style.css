@@ -104,7 +104,7 @@ a:hover {
 
 .d-bloc p, .d-bloc span{
     color: #212121;
-    text-shadow: #c22b32 0.5px 0.5px, #c22b32 -0.5px 0.5px, #c22b32 -0.5px -0.5px, #c22b32 0.5px -0.5px;
+  /*  text-shadow: #c22b32 0.5px 0.5px, #c22b32 -0.5px 0.5px, #c22b32 -0.5px -0.5px, #c22b32 0.5px -0.5px;*/
 
 }
 
@@ -127,10 +127,6 @@ a:hover {
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
@@ -680,7 +676,7 @@ a {
     margin: auto auto auto auto;
 }
 
-p, p.text-center.white{
+#bloc-8 p{
     font-size: 20px;
 }
 p.text-center{
