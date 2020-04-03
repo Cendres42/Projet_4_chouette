@@ -15,17 +15,24 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
- a:focus, button:focus{
-  text-decoration:underline!important;
-}
-.img-responsive:focus{
-border: 0.375em solid black;
-  }
-  a:hover {
-    text-decoration: none;
-    cursor: pointer;
+ a:focus, button:focus,a:hover, button:hover
+ {
+border: 0.1em solid  black;
 }
 
+a:link{
+  text-decoration:underline;
+}
+a:visited{
+  text-decoration-color:#c82a05!important;
+}
+a:focus, button:focus,a:hover, button:hover
+{
+border: 0.1em solid  black;
+}
+a:active{
+  background-color:#66686c;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -338,11 +345,6 @@ h1 {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
-
 .navbar-toggle {
     margin: 0.625em 0.625em 0 0;
     border: 0em;
@@ -481,9 +483,6 @@ button {
     box-shadow: 0 0.0625em 0.1875em rgba(0, 0, 1, .25), inset 0 0.0625em 0 0 rgba(255, 255, 255, .15);
 }
 
-.icon-md {
-    font-size: 1.875em
-}
 
 .icon-lg {
     font-size: 3.75em
@@ -684,10 +683,7 @@ a {
 p.text-center{
   font-size:1.1em;
 }
-.fa
-{
-  font-size:2em;
-}
+
 .tight-width-whitespace {
     max-width: 37.5em;
     margin: auto auto auto auto;

@@ -37,8 +37,6 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
         <a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="logo en noir et blanc de la chouette agence de web design sur Lyon" /><strong>La chouette agence</strong></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
@@ -106,9 +104,10 @@
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea name="message" id="message" title="brief de votre projet" class="form-control" rows="4" cols="50" required></textarea>
 					</div>
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button aria-describedby="descriptionEnvoi"class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
-					</button>
+          </button>
+          <div id="descriptionEnvoi">Les données du formulaires vont être envoyées.</div>
 				</form>
 			</div>
 			<div class="col-sm-6">
@@ -138,22 +137,22 @@
         <div class="row row-no-gutters social">
           <div class="col-sm-3">
             <div class="text-center">
-              <a class="social" href="index.html" title="icone twitter"><span class="fa fa-twitter icon-md"></span></a>
+              <a class="social" href="index.html" title="icone twitter"><span class="fa fa-twitter icon-md fa-2x"></span></a>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="text-center">
-              <a class="social" href="index.html" title="icone facebook"><span class="fa fa-facebook icon-md"></span></a>
+              <a class="social" href="index.html" title="icone facebook"><span class="fa fa-facebook icon-md fa-2x"></span></a>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="text-center">
-              <a class="social" href="index.html" title="icone reseau social"><span class="fa fa-dribbble icon-md"></span></a>
+              <a class="social" href="index.html" title="icone reseau social"><span class="fa fa-dribbble icon-md fa-2x"></span></a>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="text-center">
-              <a class="social" href="index.html" title="icone instagram"><span class="fa fa-instagram icon-md"></span></a>
+              <a class="social" href="index.html" title="icone instagram"><span class="fa fa-instagram icon-md fa-2x"></span></a>
             </div>
           </div>
         </div>
