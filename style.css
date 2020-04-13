@@ -917,8 +917,8 @@ a.navbar-brand{
     h6,
     p,
     #disqus_thread {
-        padding-left: 0.625em
-        padding-right: 0.625em
+        padding-left: 0.625em;
+        padding-right: 0.625em;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -951,7 +951,7 @@ a.navbar-brand{
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 0.3125em 0 0 0.625em
+        margin: 0.3125em 0 0 0.625em;
         border: 0.25em solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
