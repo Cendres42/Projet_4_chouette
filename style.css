@@ -6,33 +6,37 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 strong{
   color:black;
   font-weight:500;
 }
-a,
-button {
+
+a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
- a:focus, button:focus,a:hover, button:hover
- {
-border: 0.1em solid  black;
+
+ a:focus, button:focus,a:hover, button:hover {
+   border: 0.1em solid  black;
 }
 
 a:link{
   text-decoration:underline;
 }
+
 a:visited{
   text-decoration-color:#c82a05!important;
 }
-a:focus, button:focus,a:hover, button:hover
-{
-border: 0.1em solid  black;
+
+a:focus, button:focus,a:hover, button:hover{
+  border: 0.1em solid  black;
 }
+
 a:active{
   background-color:#66686c;
 }
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -55,8 +59,8 @@ a:active{
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .bloc-lg {
@@ -116,8 +120,6 @@ a:active{
 
 .d-bloc p, .d-bloc span{
     color: #212121;
-  /*  text-shadow: #c22b32 0.5px 0.5px, #c22b32 -0.5px 0.5px, #c22b32 -0.5px -0.5px, #c22b32 0.5px -0.5px;*/
-
 }
 
 .d-bloc button:hover {
@@ -298,6 +300,7 @@ a:active{
 
 h1 {
     font-size: 2em;
+    color: #333333!important;
 }
 
 .navbar {
@@ -311,7 +314,6 @@ h1 {
     font-size: 1.5625em;
     font-weight: normal;
     font-weight: 600;
-
 }
 
 .navbar-brand img {
@@ -483,7 +485,6 @@ button {
     box-shadow: 0 0.0625em 0.1875em rgba(0, 0, 1, .25), inset 0 0.0625em 0 0 rgba(255, 255, 255, .15);
 }
 
-
 .icon-lg {
     font-size: 3.75em
 }
@@ -547,7 +548,7 @@ a[data-lightbox]:hover::before {
     font-size: 2em;
     width: 3.125em;
     height: 3.125em;
-    margin-left: -1.5625em;
+    margin-left: 2.5em;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -680,6 +681,7 @@ a {
 #bloc-8 p, p {
     font-size: 1.25em;
 }
+
 p.text-center{
   font-size:1.1em;
 }
@@ -687,11 +689,6 @@ p.text-center{
 .tight-width-whitespace {
     max-width: 37.5em;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 1.25em;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -728,10 +725,6 @@ col-sm-4 h2, col-sm-6 h2 {
     box-shadow: 0em 0em 0em #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
 h4 {
     color: #333333!important;
 }
@@ -746,7 +739,6 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 1.5em;
     display:inline-block;
 }
 
@@ -849,11 +841,12 @@ h4 {
         padding-right: 0;
     }
 }
+
 a.navbar-brand{
   font-family: 'Quintessential', cursive;
   font-size:4rem;
-
 }
+
 @media (max-width: 62em) and (min-width: 48em) {
     .navbar .nav {
         max-width: 80%
